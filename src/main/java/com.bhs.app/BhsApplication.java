@@ -1,4 +1,4 @@
-package com.bhs.app.bhs;
+package com.bhs.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
