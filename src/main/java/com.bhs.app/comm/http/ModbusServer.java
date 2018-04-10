@@ -11,8 +11,7 @@ import java.net.Socket;
  */
 public class ModbusServer {
 
-    public static void main(String[] args) {
-
+    public  static void startServer(){
         try {
             //1.创建一个服务器端Socket，即ServerSocket，指定绑定的端口，并监听此端口
             ServerSocket serverSocket=new ServerSocket(8888);
@@ -37,6 +36,11 @@ public class ModbusServer {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+
+
+    public static void main(String[] args) {
 
     }
 }
