@@ -24,6 +24,10 @@ public class ModbusConnect {
 
     private ModbusTcpMaster master;
 
+    public ModbusConnect() {
+
+    }
+
 
     public ModbusConnect(ModbusTcpMaster master) {
         this.master = master;
